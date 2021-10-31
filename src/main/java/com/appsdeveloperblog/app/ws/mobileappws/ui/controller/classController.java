@@ -21,7 +21,6 @@ import com.appsdeveloperblog.app.ws.mobileappws.service.ClassService;
 import com.appsdeveloperblog.app.ws.mobileappws.shared.dto.ClassDto;
 import com.appsdeveloperblog.app.ws.mobileappws.ui.model.request.ClassDetailsRequestModel;
 
-@CrossOrigin("http://localhost:3000")
 @RestController
 @RequestMapping("/classes")
 public class classController {
